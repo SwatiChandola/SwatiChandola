@@ -1,0 +1,13 @@
+print("swati")
+a=int(input("enter num1="))
+b=int(input("enter num2="))
+c=int(input("enter num3="))
+if(a>b):
+  if(a>c):
+    print("a is largest",a)
+  else:
+    print("c is largest",c)
+elif(c>b):
+  print("c is largest",c)
+else:
+  print("b is largest",b)
