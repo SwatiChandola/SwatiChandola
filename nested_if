@@ -1,0 +1,11 @@
+print("swati")
+var = 200
+if (var ==100):
+  print("Hello")
+  if (var == 400):
+    print("call")
+elif (var == 200):
+  print("byee")
+else:
+  print("Goodbye")
+print("hy")
