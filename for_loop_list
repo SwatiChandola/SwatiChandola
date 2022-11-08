@@ -1,0 +1,4 @@
+list = ['apple', 'banana', 'orange']
+for i in list:
+  print(i)
+print(list[:2])
