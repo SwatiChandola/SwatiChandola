@@ -1,0 +1,22 @@
+  month = { "jan" : 31 , "feb" : 28 , "march" : 31 , "april" : 30 , "may" : 31 , "june" : 30 , "july" : 31 , "aug" : 31 , "sept" : 30 , "oct" : 31 , "nov" : 30 , "dec" : 31}
+  print("swati")
+  print("1.")
+  mon = input("Enter the month name in short form :- ")
+  print("Number of days in ",mon,"=",month [ mon ])
+  print("2.")
+  for i in sorted(month.keys()):                           
+    print(i,month[i])
+  print("3.")
+  print( "Month which have 31 days !!-- ")              
+  for i in month :
+      if month [ i ] == 31 :
+          print( i )
+  print("4.")
+  print("Month according to number of days ---")        
+  print("feb")
+  for i in month :
+      if month [ i ] == 30 :
+          print(i)
+  for i in month :
+      if month [ i ] == 31 :
+          print( i)
