@@ -1,0 +1,10 @@
+def fun(name,gender):
+  if (gender == 'M' or gender == 'm'):
+    print("Hello, Mr.",name,"Good Morning sir")
+  elif (gender == 'F' or gender == 'f'):
+    print("Hello, Ms.",name,"Good Morning mam")
+  else:
+    print("Hello,",name,"Good Morning")
+name = input("Enter your name: ")
+gender = input("Enter your gender: M for Male, and F for Female: ")
+fun(name,gender)
