@@ -1,0 +1,2 @@
+str="this is a globe is an one is am is"
+str.count("is")
