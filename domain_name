@@ -1,0 +1,19 @@
+def test(email_address):
+	r = email_address.index("@")
+	return "".join(l for l in email_address[:r] if l.isalpha())
+email_address = "swati@gmail.com"
+print("Original Email:", email_address)
+print("Extract the name from the said Email address:")
+print(test(email_address))
+email_address = "swati.chandola@gmail.com"
+print("\nOriginal Email:", email_address)
+print("Extract the name from the said Email address:")
+print(test(email_address))
+email_address = "swati.chandola@gmail.com@example.com"
+print("\nOriginal Email:", email_address)
+print("Extract the name from the said Email address:")
+print(test(email_address))
+email_address = "swati-chandola-2204@example.com"
+print("\nOriginal Email:", email_address)
+print("Extract the name from the said Email address:")
+print(test(email_address))  
