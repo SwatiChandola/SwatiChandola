@@ -1,0 +1,8 @@
+list=["a","b","c","d","e","f","g","h","i","j"]
+print("swati")
+print("1.")
+print(list[0:3])
+print("2.")
+print(list[3:6])
+print("3.")
+print(list[3:])
